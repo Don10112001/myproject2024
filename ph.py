@@ -3,7 +3,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 import plotly.express as px
 import streamlit as st
-#from mpl_toolkits.basemap import Basemap
+from mpl_toolkits.basemap import Basemap
 
 
 st.set_page_config(page_title="Pharma Sales" ,
