@@ -3,3 +3,4 @@ numpy
 plotly
 streamlit 
 matplotlib
+mpl-toolkits.clifford
