@@ -204,7 +204,7 @@ if tab_selected == "Dashboard":
     distributor_sales = distributor_sales.sort_values(by='Sales', ascending=False)
 
 # Plot the pie chart
-    fig10 = px.pie(distributor_sales, values='Sales', names='Distributor', title='Distribution of Sales Among Distributors in Poland')
+    fig10 = px.pie(distributor_sales, values='Sales', names='Distributor', title='Sales Among Distributors in Poland')
     #st.plotly_chart(fig)
     
     # Filter the data for distributors in Poland
@@ -217,7 +217,7 @@ if tab_selected == "Dashboard":
     distributor_sales = distributor_sales.sort_values(by='Sales', ascending=False)
 
 # Plot the pie chart
-    fig11 = px.pie(distributor_sales, values='Sales', names='Distributor', title='Distribution of Sales Among Distributors in Germany')
+    fig11 = px.pie(distributor_sales, values='Sales', names='Distributor', title='Sales Among Distributors in Germany')
     #st.plotly_chart(fig)
 
     
